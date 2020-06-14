@@ -1,5 +1,6 @@
 /*realiza os cálculos criando 3 variáveis e retornando o valor de duas inputs, por fim, 
-atribuindo a 'x', o valor de 'a / (b * b)' e retornando esse resultado 'x' dentro da div 'mostrar'*/
+atribuindo a 'x', o valor de 'a / (b * b)' e retornando esse resultado 'x' dentro da div 
+'mostrar', utlizando o método 'toFixed()' para mostrar apenas duas casas decimais após a vírgula.*/
 function calcular() {
     var a, b, x;
     a = document.getElementById('pesoKg').value;
@@ -7,6 +8,7 @@ function calcular() {
     x = a / (b * b);
     document.getElementById('mostrar').innerHTML= x.toFixed(2);
 
+    /*if aninhado verifica o valor do IMC e dependendo do valor ele retornará uma situação*/
     if(x >= 40) {
         document.getElementById('situacao').innerHTML='Obesidade G3';
     } else if(x < 40 && x > 35) {
@@ -21,3 +23,5 @@ function calcular() {
         document.getElementById('situacao').innerHTML='Estado. Magro';
     }
 }
+
+/*desenvolvido por Anderson Leandro*/
