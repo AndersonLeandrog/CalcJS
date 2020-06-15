@@ -24,4 +24,61 @@ function calcular() {
     }
 }
 
+function emDark() {
+    document.querySelector('.content').style.backgroundColor='#696969';
+    document.getElementsByTagName('h1')[0].style.color='white';
+
+    var input = document.getElementsByTagName('input');
+        
+        input[0].style.color='white';
+        input[0].style.backgroundColor='#808080';
+        input[0].style.borderBottom='1px solid white';
+
+        input[1].style.color='white';
+        input[1].style.backgroundColor='#808080';
+        input[1].style.borderBottom='1px solid white';
+
+    var table = document.getElementsByTagName('table');
+        table[0].style.backgroundColor='#808080';
+        table[0].style.color='white';
+}
+
+function eDark() {
+    document.querySelector('.content').style.backgroundColor='#696969';
+    document.getElementsByTagName('h1')[0].style.color='white';
+
+    var input = document.getElementsByTagName('input');
+        
+        input[0].style.color='white';
+        input[0].style.backgroundColor='#808080';
+        input[0].style.borderBottom='1px solid white';
+
+        input[1].style.color='white';
+        input[1].style.backgroundColor='#808080';
+        input[1].style.borderBottom='1px solid white';
+
+    var table = document.getElementsByTagName('table');
+        table[0].style.backgroundColor='#808080';
+        table[0].style.color='white';
+}
+
+function dDark() {
+    document.querySelector('.content').style.backgroundColor='rgb(248, 248, 248)';
+    document.getElementsByTagName('h1')[0].style.color='black';
+
+    var input = document.getElementsByTagName('input');
+        
+        input[0].style.color='black';
+        input[0].style.backgroundColor='rgb(231, 231, 231)';
+        input[0].style.borderBottom='1px solid gray';
+
+        input[1].style.color='black';
+        input[1].style.backgroundColor='rgb(231, 231, 231)';
+        input[1].style.borderBottom='1px solid gray';
+
+    var table = document.getElementsByTagName('table');
+        table[0].style.backgroundColor='rgb(231, 231, 231)';
+        table[0].style.color='black';
+}
+
 /*desenvolvido por Anderson Leandro*/
