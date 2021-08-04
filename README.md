@@ -1,4 +1,4 @@
-### Calc[JS]
+### Calculadora de IMC Javascript
 #### Descriçao: Uma calculadora de IMC (Indice de Massa Corporal) responsiva, desenvolvida utilizando HTML, CSS e Javascript! Com suporte a diversos navegadores.
 
 
