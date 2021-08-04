@@ -46,7 +46,7 @@ table{
     height: 700px;
 
     /*estilo da página*/
-    background-color: coral;
+    background-color: rgb(80, 98, 255);
 
     /*propriedades da página*/
     display: flex;
@@ -163,5 +163,51 @@ table{
         font-size: 43px;
     }
 
+    .container .content .info{
+        float: left;
+        width: 300px;
+        height: 130px;
+        margin: 10px 0px 0px 8px;
+        background: transparent;
 
-    /*desenvolvido por Anderson Leandro*/
+        /*estilo da div info*/    
+        border-radius: 2px;
+
+        /*propriedades da página*/
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+
+        /*Alinha horizontal e verticamente o conteúdo*/
+        align-items: center;
+        align-content: center;
+    }
+
+        .container .content .info .title{
+            float: left;
+            width: 300px;
+            height: 25px;
+            margin-bottom: 10px;
+            background: transparent;
+
+            font-size: 18px;
+            font-style: italic;
+            text-align: center;
+            color: #808080;
+        }
+
+        .container .content .info .ico{
+            float: right;
+            width: 32px;
+            height: 32px;
+            margin: 5px;
+            border-radius: 50%;
+            background: transparent;
+
+            filter: grayscale(1);
+        }
+
+        .container .content .info .ico:hover{
+            filter: grayscale(0);
+        }
