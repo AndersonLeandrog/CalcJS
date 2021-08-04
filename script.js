@@ -24,12 +24,14 @@ function calcular() {
     }
 }
 
-function emDark() {
+function darkModeOn() {
+    document.querySelector('.container').style.backgroundColor='black';
+    document.querySelector('.config').style.filter='grayscale(1)';
     document.querySelector('.content').style.backgroundColor='#696969';
     document.getElementsByTagName('h1')[0].style.color='white';
+    document.querySelector('.title').style.color='whitesmoke';
 
     var input = document.getElementsByTagName('input');
-        
         input[0].style.color='white';
         input[0].style.backgroundColor='#808080';
         input[0].style.borderBottom='1px solid white';
@@ -43,42 +45,23 @@ function emDark() {
         table[0].style.color='white';
 }
 
-function eDark() {
-    document.querySelector('.content').style.backgroundColor='#696969';
-    document.getElementsByTagName('h1')[0].style.color='white';
-
-    var input = document.getElementsByTagName('input');
-        
-        input[0].style.color='white';
-        input[0].style.backgroundColor='#808080';
-        input[0].style.borderBottom='1px solid white';
-
-        input[1].style.color='white';
-        input[1].style.backgroundColor='#808080';
-        input[1].style.borderBottom='1px solid white';
-
-    var table = document.getElementsByTagName('table');
-        table[0].style.backgroundColor='#808080';
-        table[0].style.color='white';
-}
-
-function dDark() {
+function darkModeOf() {
+    document.querySelector('.container').style.backgroundColor='rgb(80, 98, 255)';
+    document.querySelector('.config').style.filter='grayscale(0)';
     document.querySelector('.content').style.backgroundColor='rgb(248, 248, 248)';
     document.getElementsByTagName('h1')[0].style.color='black';
+    document.querySelector('.title').style.color='#808080';
 
     var input = document.getElementsByTagName('input');
-        
         input[0].style.color='black';
-        input[0].style.backgroundColor='rgb(231, 231, 231)';
+        input[0].style.backgroundColor='rgb(235, 235, 235)';
         input[0].style.borderBottom='1px solid gray';
 
         input[1].style.color='black';
-        input[1].style.backgroundColor='rgb(231, 231, 231)';
+        input[1].style.backgroundColor='rgb(235, 235, 235)';
         input[1].style.borderBottom='1px solid gray';
 
     var table = document.getElementsByTagName('table');
         table[0].style.backgroundColor='rgb(231, 231, 231)';
         table[0].style.color='black';
 }
-
-/*desenvolvido por Anderson Leandro*/
