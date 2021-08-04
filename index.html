@@ -12,17 +12,14 @@
     <!--Javascript-->
     <script src="script.js"></script>
 
-    <!--fontawesome-->
-    <script src="https://kit.fontawesome.com/eca3ed8ee2.js" crossorigin="anonymous"></script>
-
-    <title>Calculadora IMC | Anderson L *</title>
+    <title>Calculadora IMC | GIT/AndersonLeandrog</title>
 
 </head>
 
 <body>
 
-    <div class="config" onmouseover="eDark()" onmouseout="dDark()" onclick="emDark">
-        <i class="fas fa-eye"></i>
+    <div class="config" onclick="darkModeOn()" ondblclick="darkModeOf()">
+        <img src="https://image.flaticon.com/icons/png/512/5225/5225707.png" title="Clique duas vezes para desabilitar o modo escuro." width="23px" height="23px">
     </div>
 
     <div class="container">
@@ -37,7 +34,7 @@
             <input type="text" id="alturaM" value="Altura">
             <button id="calcular" onclick="calcular()">Calcular</button>
             <div id="situacao">Classificado c/</div>
-            <div id="mostrar">IMC/</div>
+            <div id="mostrar">*</div>
 
             <table>
                 <tr>
@@ -75,10 +72,38 @@
                     <td>Magreza</td>
                 </tr>
             </table>
+
+            <div class="info">
+                <div class="title">
+                    Siga nas redes socias!
+                </div>
+
+                <a href="https://github.com/AndersonLeandrog" target="_blank">
+                    <div class="ico">
+                        <img src="https://image.flaticon.com/icons/png/512/1322/1322053.png" width="32px" height="32px"/>
+                    </div>
+                </a>
+                
+                <a href="https://br.linkedin.com/" target="_blank">
+                    <div class="ico">
+                        <img src="https://image.flaticon.com/icons/png/512/1384/1384889.png" width="32px" height="32px"/>
+                    </div>
+                </a>
+
+                <a href="https://twitter.com/AndersonLetw" target="_blank">
+                    <div class="ico">
+                        <img src="https://image.flaticon.com/icons/png/512/1322/1322042.png" width="32px" height="32px"/>
+                    </div>
+                </a>    
+
+                <a href="https://www.youtube.com" target="_blank">
+                    <div class="ico">
+                        <img src="https://image.flaticon.com/icons/png/512/1322/1322030.png" width="32px" height="32px"/>
+                    </div>
+                </a>
+            </div>
         </div>    
     </div>
 </body>
 
 </html>
-
-<!--desenvolvido por Anderson Leandro-->
