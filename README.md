@@ -11,15 +11,15 @@
 #### 2. Ao abrir, em peso, insira o peso que deseja para calcular o IMC e em seguida a altura, a altura deve ser acompanhada de um ponto, exemplo: 1.75, nao use virgulas!
 
 
-![Alt text](https://i.ibb.co/86QkXXt/image.png)
-
+![Alt text](https://i.ibb.co/Jd2NB4w/1.png)
 
 ### Tecnologias Usadas
-#### • HTML5, CSS3 e Javascript
-
+#### - HTML5
+#### - CSS3
+#### - Javascript
 
 ### Autor
-#### • Anderson Leandro
+#### - Anderson Leandro
 
 
 ### License
