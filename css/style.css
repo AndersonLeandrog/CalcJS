@@ -1,0 +1,199 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+
+    background: rgb(80, 98, 255);
+}
+
+table{
+    /*propiedade de alinhamento da table*/
+    float: left;
+    width: 95%;
+    margin: 15px 0px 0px 8px;
+
+    /*estilo da table*/
+    border-radius: 3px;
+    background: rgb(231, 231, 231);
+}
+
+.config{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 10px 0px 0px 96%;
+
+    cursor: pointer;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+    background: rgb(253, 253, 253);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+
+    /*propriedades da página*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content{
+    /*propriedade de alinhamento do container*/
+    float: left;
+    width: 315px;
+    height: 500px;
+    
+    /*estilo do container*/
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
+    background: rgb(248, 248, 248);
+}
+
+    .container .content .fundoH1{
+        /*propriedade de alinhamento do fundo da h1*/
+        width: 100%;
+        height: 35px;
+        margin: 15px 0px 0px 0px;
+    }
+
+        .container .fundoH1 h1{
+            /*propriedade de alinhamento da h1*/
+            margin: 0px 0px 0px 25% ; 
+        }
+
+    .container .content input{
+        /*propriedade de alinhamento da input*/
+        float: left;
+        width: 80px;
+        height: 45px;
+        margin: 40px 0px 0px 10px;
+        padding-left: 5px;
+        
+        /*estilo da input*/
+        border: none;
+        outline: none;
+        border-radius: 2px;
+        border-bottom: 1px solid gray; 
+        background: rgb(235, 235, 235);
+
+        /*fonte da input*/
+        font-size: 2em
+    }
+
+    .container .content button{
+        /*propriedade de alinhamento do elemento button*/
+        float: left;
+        width: 105px;
+        height: 47.45px;
+        margin: 40px 0px 0px 10px;
+
+        /*estilo do elemento button*/
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 2px;
+        border-bottom: 2px solid green;
+        background: rgb(121, 224, 130);
+        
+        /*estilo da fonte do elemento button*/
+        font-size: 1.42em;
+    }
+
+    .container .content #situacao{
+        /*propriedade de alinhamento da div 'situacao'*/
+        float: left;
+        width: 176px;
+        height: 30px;
+        margin: 17.5px 0px 0px 10px;
+        padding: 0px 0px 0px 2px;
+
+        /*estilo da div 'situacao'*/
+        cursor: pointer;
+        border: none;
+        border-radius: 2px;
+        background: rgb(247, 245, 117);
+
+        /*fonte da div situação*/
+        font-size: 1.85em;
+    }
+
+    .container .content #mostrar{
+        /*propriedade de alinhamento da div 'mostrar'*/
+        float: left;
+        width: 109px;
+        height: 45px;
+        margin: 10px 0px 0px 10px;
+
+        /*estilo da div mostrar*/
+        cursor: pointer;
+        border: none;
+        border-radius: 2px;
+        border-bottom: 1px solid rgb(240, 209, 37);   
+        background: rgb(252, 249, 112);
+
+        /*fonte da div mostrar*/
+        font-size: 3em;
+    }
+
+    .container .content .info{
+        float: left;
+        width: 300px;
+        height: 130px;
+        margin: 10px 0px 0px 8px;
+        background: transparent;
+
+        /*estilo da div info*/    
+        border-radius: 2px;
+
+        /*propriedades da página*/
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+
+        /*Alinha horizontal e verticamente o conteúdo*/
+        align-items: center;
+        align-content: center;
+    }
+
+        .container .content .info .title{
+            float: left;
+            width: 300px;
+            height: 25px;
+            margin-bottom: 10px;
+            background: transparent;
+
+            font-size: 1.28em;
+            font-style: italic;
+            text-align: center;
+            color: #808080;
+        }
+
+        .container .content .info .ico{
+            float: right;
+            width: 32px;
+            height: 32px;
+            margin: 5px;
+            border-radius: 50%;
+            background: transparent;
+
+            filter: grayscale(1);
+        }
+
+        .container .content .info .ico:hover{
+            filter: grayscale(0);
+        }
