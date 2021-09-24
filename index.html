@@ -7,18 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!--CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!--Javascript-->
-    <script src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/themes.js"></script>
 
-    <title>Calculadora IMC | GIT/AndersonLeandrog</title>
+    <title>Calculadora IMC Javascript | github.com/AndersonLeandrog</title>
 
 </head>
 
 <body>
 
-    <div class="config" onclick="darkModeOn()" ondblclick="darkModeOf()">
+    <div class="config" onclick="ligarModoEscuro()" ondblclick="desligarModoEscuro()">
         <img src="https://image.flaticon.com/icons/png/512/5225/5225707.png" title="Clique duas vezes para desabilitar o modo escuro." width="23px" height="23px">
     </div>
 
@@ -30,9 +31,9 @@
                 <h1>IMCALC{x}</h1>
             </div>
 
-            <input type="text" id="pesoKg" value="Peso">
-            <input type="text" id="alturaM" value="Altura">
-            <button id="calcular" onclick="calcular()">Calcular</button>
+            <input type="text" id="pesoKg" placeholder="Peso">
+            <input type="text" id="alturaM" placeholder="Altura">
+            <button id="calcular" onclick="calcularIMC()">Calcular</button>
             <div id="situacao">Classificado c/</div>
             <div id="mostrar">*</div>
 
